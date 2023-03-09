@@ -1,4 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Gloria+Hallelujah&display=swap');
+
 * {
     margin: 0;
     padding: 0;
+}
+
+:root {
+    --font-base: 'Gloria Hallelujah', cursive;    ; 
 }

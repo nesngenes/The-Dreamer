@@ -1,5 +1,6 @@
 .paintings-wrapper{
     background-color: #606999;
+    font-family: var(--font-base);
     height: 100vh;
     overflow-x: hidden;
     overflow-y: auto;
@@ -36,6 +37,23 @@
     transform: translateZ(-5px) scale(1.28);
 }
 
+.paper-1, .paper-2 {
+    position: absolute;
+    background-color: white;
+    font-size: 2rem;
+    padding: 1.2rem;
+}
+
+.paper-1 {
+    top: 10rem;
+    left: 22rem;
+}
+
+.paper-2 {
+    top: 25rem;
+    left: 70rem;
+}
+
 .parallax-main {
     height: 400px;
     font-size: 2rem;
@@ -43,4 +61,12 @@
     background-color: #606999;
     color: white;
     position: absolute;
+}
+
+.parallax-main p {
+    width: 50%;
+}
+
+.parallax-main p:nth-child(2) {
+    margin-left: auto;
 }
