@@ -44,6 +44,15 @@
     padding: 1.2rem;
 }
 
+.keep-scrolling {
+    position: absolute;
+    top: 50rem;
+    left: 22rem;
+    font-size: 4rem;
+    color: rgb(255, 255, 255);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
 .paper-1 {
     top: 10rem;
     left: 22rem;
